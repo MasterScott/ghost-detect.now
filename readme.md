@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="750" src="https://nikolaskama.me/content/images/2018/03/ghost-detect.png" alt="Ghost-Detect.Now">
+	<img width="750" src="https://nikolaskama.me/content/images/2018/03/ghost-detect-1.png" alt="Ghost-Detect.Now">
 </h1>
 
 <p align="center">A minimal service to check whether a site has been generator by the Ghost publishing platform.</p>
