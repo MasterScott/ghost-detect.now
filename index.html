@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Ghost Detector</title>
+      <link rel="shortcut icon" href="favicon.png">
+      <meta name="description" content="A minimal service to check whether a site has been generator by the Ghost publishing platform.">
+      <meta name="keywords" content="ghost,detector">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta name="theme-color" content="black">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <meta property="og:site_name" content="Ghost Detector" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Ghost Detector" />
+      <meta property="og:url" content="https://ghost-detect.now.sh/" />
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="heading">
+            <form action="/check" method="post">
+               <div class="center">
+                  <label>Does</label>
+                  <input class="url-form" type="text" name="url" id="url" placeholder="spreadprivacy.com" required />
+                  <label>use <img src="imgs/ghost.svg" href="https://ghost.org">?</label>
+               </div>
+            </form>
+         </div>
+         <div class="footer">
+            <div class="left">
+               © <script type="text/javascript">document.write(new Date().getFullYear());</script> — <a href="mailto:nikolaskam@gmail.com">k4m4</a>
+            </div>
+            <div class="right">
+               <a href="https://github.com/k4m4/ghost-detect.now" target="_blank">Github</a>
+               <a href="https://twitter.com/nikolaskama" target="_blank">Twitter</a>
+               <div class="chat">
+                  <a href="https://nikolaskama.me/contact" target="_blank">Chat</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

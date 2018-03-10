@@ -1,0 +1,19 @@
+{
+    "name": "ghost-detect",
+    "public": false,
+    "alias": [
+        "ghost-detect.now.sh"
+    ],
+    "files": [
+        "index.js",
+    	".env",
+        "css/styles.css",
+        "index.html",
+        "status.html",
+        "package.json",
+        "imgs/ghost.svg"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
+}
