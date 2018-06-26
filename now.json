@@ -11,9 +11,11 @@
         "index.html",
         "status.html",
         "package.json",
-        "imgs/ghost.svg"
+        "imgs/ghost.svg",
+        "imgs/favicon.png"
     ],
     "env": {
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "SECRET": "@secret"
     }
 }

@@ -15,8 +15,6 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(express.static(__dirname));
-app.use(express.static("public"));
-
 app.disable('x-powered-by')
 app.use(sanitizer())
 app.use(helmet());
